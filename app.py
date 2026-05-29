@@ -2,6 +2,8 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+import sklearn
+print(sklearn.__version__)
 
 # Page Configuration (Dark Premium Theme)
 st.set_page_config(
